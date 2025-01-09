@@ -30,6 +30,9 @@
 
 ```bash
 $ npm install
+$ npx prisma generate
+$ npx prisma migrate dev --name init
+$ npm run seed
 ```
 
 ## Compile and run the project
